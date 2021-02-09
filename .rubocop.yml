@@ -1,0 +1,15 @@
+require: 
+  - rubocop-rspec
+AllCops:
+  NewCops: enable
+Metrics/BlockLength:
+  Exclude:
+    - lib/**/*
+    - spec/**/*
+Metrics/MethodLength:
+  Exclude:
+    - lib/**/*
+Style/Documentation:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
